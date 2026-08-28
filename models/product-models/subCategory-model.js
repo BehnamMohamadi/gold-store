@@ -22,7 +22,6 @@ const subCategorySchema = new Schema(
       type: Schema.Types.ObjectId,
       ref: "Category",
       required: [true, "category is required"],
-      index: true,
     },
 
     icon: {
@@ -34,7 +33,6 @@ const subCategorySchema = new Schema(
     isActive: {
       type: Boolean,
       default: true,
-      index: true,
     },
 
     sortOrder: {

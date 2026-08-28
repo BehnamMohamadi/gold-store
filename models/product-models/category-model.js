@@ -29,7 +29,6 @@ const categorySchema = new Schema(
     isActive: {
       type: Boolean,
       default: true,
-      index: true,
     },
 
     sortOrder: {
